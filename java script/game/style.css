@@ -1,0 +1,80 @@
+/* *{
+    background-color: black;
+} */
+
+
+.container{
+    height: 400px;
+    width: 250px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 10px ,10px lightblue;
+    border-style: solid;
+    min-height: 45vh;
+    min-height: 40vh;
+    
+}
+.btn {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 3rem;
+    overflow: hidden;
+    color: black;
+    margin-top: 2rem;
+}
+.container
+ {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ /* .container{
+    box-shadow: 50px ,10px lightblue;
+ } */
+  body{
+    align-items: center;
+    background-color: gray;
+  }
+  form select,button,input{
+    width: 100%;
+  }
+  form{
+    margin: 1rem 0 1rem 0 ;
+    border: none;
+  }
+  .dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 30px;
+  }
+  .select-container img{
+    max-width: 1.75rem;
+
+  }
+  .select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    background-color: red;
+    border-radius: 10%;
+  }
+  .msg{
+    margin-top: 3rem;
+  }
+  .fa-solid fa-arrow-right-arrow-left{
+    display: flex;
+    justify-content: space-between;
+  }
+  .dropdown i{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
